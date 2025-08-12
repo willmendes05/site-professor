@@ -1,0 +1,15 @@
+/* reset de estilos - Estamos removendo todos os estilos padrões do nanegador. */
+/* seletor global. */
+* {
+    margin: 0;
+    padding: 0;
+
+    /* none - nenhum*/
+    text-decoration: none;
+}
+
+body {
+   font-family: "Merriweather", serif;
+   background-color: #444444;
+   color: #fafafa;
+}
