@@ -6,6 +6,9 @@
 
     /* none - nenhum*/
     text-decoration: none;
+    
+    /* remove os pontinhos da lista */
+    list-style: none;
 }
 
 body {
@@ -13,3 +16,54 @@ body {
    background-color: #444444;
    color: #fafafa;
 }
+
+header {
+    background-color: black;
+    /* position: static;
+    position: relative;
+    top: 20px;
+    left: 10px;
+
+    z-index: -1;
+    position: absolute;
+    position: fixed;    
+    */
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    display: flex;
+    flex-direction: row;
+
+    /* cria um espaço entre os elementos */
+    justify-content: center;
+
+    /* comportamento padrão de alinhamento de itens. */
+    /* align-items: stretch; */
+    align-items: center;
+
+    height: 60px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+header a {
+    color: #fafafa;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+
