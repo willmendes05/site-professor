@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Inicial</title>
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
     
     
     <link rel="stylesheet" href="style.css">
@@ -17,37 +18,65 @@
 
 <body>
     <header>
-        <div class="container">
-            <h1><a href="/">Logo</a></h1>
-            <nav>
-                <ul>
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/sobre.html">Sobre</a></li>
-                    <li><a href="/contato.html">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <div class="container ajuste-flex">
+      <h1><a href="/">Logo</a></h1>
+      <nav>
+        <ul>
+          <li class="item-menu"><a href="index.html">Home</a></li>
+          <li class="item-menu"><a href="sobre.html">Sobre</a></li>
+          <li class="item-menu"><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
     <main>
-        <section>
-            <h2>sobre o mago</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam saepe beatae ullam. Expedita repellendus magni minus, iure tempore odit dolor illo. Suscipit ab odit numquam aliquid dolorem sint cumque totam.</p>
+    <div class="container main">
+      <section>
+        <h2>Sobre o Willian</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <strong> Ullam </strong> odit ad a nisi eius harum
+          enim facere, vel aut
+          architecto asperiores nulla quo. Quaerat porro animi, quas ea corporis modi!</p>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque omnis ad deleniti? Vel iste, consequuntur beatae expedita ipsam error veniam, minus magni, aperiam et dolores necessitatibus quis aliquam corrupti. Explicabo.</p>
+        <a href="sobre.html">Saiba mais</a>
+      </section>
 
-            <a href="/sobre.html">saiba mais</a>
-        </section>
-        <section>
-            <h2>o que come? onde vive?</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, voluptatibus! Harum doloribus nostrum temporibus ut consequuntur aliquam maiores debitis reiciendis! Ipsam illum veritatis maxime recusandae natus corrupti officiis doloremque suscipit.</p>
+      <section>
+        <h2>de onde é? onde vive?</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus at debitis natus ut illum, doloribus
+          veniam
+          corporis vero porro consectetur labore, soluta, ex voluptatem cum impedit odit possimus praesentium
+          exercitationem.</p>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto labore error sit sint provident, ad pariatur, unde maiores qui ut ipsam expedita dolore corrupti ab accusamus iste reiciendis explicabo adipisci?</p>
-        </section>
-    </main>
+        <a href="sobre.html">Saiba mais</a>
+
+      </section>
+
+      <section>
+        <h2>onde vive? de onde é?</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus at debitis natus ut illum, doloribus
+          veniam
+          corporis vero porro consectetur labore, soluta, ex voluptatem cum impedit odit possimus praesentium
+          exercitationem.</p>
+        <a href="sobre.html">Saiba mais</a>
+      </section>
+    </div>
+  </main>
 
     <footer>
-        <p>Todos os direitos reservados &copy; 2024</p>'
-    </footer>
+    <div class="container">
+      <p>Todos os direitos reservados.</p>
+
+      <a href="https://github.com/nevesapi/mini-site" target="_blank">
+        <img src="assets/github.png" alt="">
+        Github
+      </a>
+
+      <a href="https://instagram.com" target="_blank">
+        <img src="assets/Instagram.svg" alt="">
+        Instagram
+      </a>
+    </div>
+  </footer>
 </body>
 
 </html>
