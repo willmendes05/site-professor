@@ -28,6 +28,11 @@ img {
   max-width: 100%;
 }
 
+a {
+  /* transition: background-color 400ms ease-in-out, color 400ms ease-in-out; */
+  transition: background-color 400ms ease-in-out, color 400ms ease-in-out, transform 400ms ease-in-out;
+}
+
 header {
   background-color: #212121;
 
@@ -166,6 +171,30 @@ section a:hover {
   background-color: #942a81;
 }
 
+footer{
+  text-align: center;
+  padding-top: 2px;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer a:first-of-type {
+  margin-right: 10px;
+}
+
 footer img {
   width: 30px;
 }
+/* fim da estilização da index.html */
+
+/* inicio da estilização do sobre.html */
+
+.sobre  {
+
+}
+
+      article {
+        margin-top: 15px;
+      }
